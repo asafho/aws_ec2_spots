@@ -1,7 +1,7 @@
 # aws_ec2_spots
 script to create/stop/terminate AWS ec2/spots
 
-###prerequisites
+### prerequisites
 install requirements.txt file
 set environment variables with your AWS keys
  - AWS_ACCESS_KEY_ID
