@@ -12,11 +12,11 @@ class AWS(object):
         self.env_name = env_name
         self.termination_time = termination_time
         self.aws_access_key = os.environ.get('AWS_ACCESS_KEY_ID')
+        self.aws_secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
         self.aws_accountID = "123456789"
         self.subnetID = "sub-12432t"
         self.groupID = "sg-123456"
         self.pem_file = "test_pem_file"
-        self.aws_secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
         self.c_time = datetime.now().strftime('%H:%M %d/%m/%Y')
         if not self.aws_access_key or not self.aws_secret_key:
             print ('AWS enviroment variables are not set("AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY")')
