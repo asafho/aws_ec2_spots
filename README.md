@@ -19,18 +19,18 @@ setup your account details in aws.py
 python main.py 
 
 #### terminate aws server by timer
-python aws.py --command terminate_by_timer
+python aws.py --command terminate_by_timer <br />
 this will terminate all lives servers that passed the timer on boot 
 
 #### stop aws server by timer
-python aws.py --command stop_by_timer
+python aws.py --command stop_by_timer <br />
 this will stop all lives servers that passed the timer on boot 
 
 
 #### terminate aws server by name
-python aws.py --command terminate_by_name --name testname
+python aws.py --command terminate_by_name --name testname <br />
 this will terminate all lives servers that contains the given name
 
 #### stop aws server by name
-python aws.py --command stop_by_name --name testname
+python aws.py --command stop_by_name --name testname <br />
 this will stop all lives servers that contains the given name 
